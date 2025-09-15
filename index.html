@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Agua - Fuente de Vida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* --- RESET --- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f9ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* --- HEADER --- */
+    header {
+      background: linear-gradient(135deg, #00b4d8, #0077b6);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* --- NAV --- */
+    nav {
+      background: #0096c7;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      padding: 8px 15px;
+      border-radius: 20px;
+      transition: 0.3s;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      background: #023e8a;
+    }
+
+    /* --- SECTIONS --- */
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #0077b6;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+
+    .tarjeta {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .tarjeta:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* --- MOBILE FRIENDLY --- */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>💧 El Agua: Fuente de Vida</h1>
+    <p>Página educativa para secundaria</p>
+  </header>
+
+  <nav>
+    <a href="#importancia">Importancia</a>
+    <a href="#ciclo">Ciclo</a>
+    <a href="#contaminacion">Contaminación</a>
+    <a href="#consejos">Consejos</a>
+    <a href="#datos">Datos</a>
+    <a href="#cientificos">Ciencia</a>
+    <a href="#retos">Retos</a>
+    <a href="#impacto">Impacto</a>
+    <a href="#conservacion">Conservación</a>
+  </nav>
+
+  <section id="importancia">
+    <h2>Importancia del Agua</h2>
+    <div class="tarjeta">
+      <p>El agua es esencial para la vida en la Tierra. Participa en procesos vitales, regula el clima y es necesaria para el consumo humano, la agricultura y la industria.</p>
+    </div>
+  </section>
+
+  <section id="ciclo">
+    <h2>El Ciclo del Agua</h2>
+    <div class="tarjeta">
+      <p>El ciclo del agua describe el movimiento continuo del agua en la Tierra: evaporación, condensación, precipitación e infiltración.</p>
+    </div>
+  </section>
+
+  <section id="contaminacion">
+    <h2>Contaminación del Agua</h2>
+    <div class="tarjeta">
+      <p>La contaminación proviene de desechos industriales, agrícolas y domésticos, afectando la salud de los ecosistemas y las personas.</p>
+    </div>
+  </section>
+
+  <section id="consejos">
+    <h2>Consejos de Cuidado</h2>
+    <div class="tarjeta">
+      <ul>
+        <li>Cerrar la canilla mientras te cepillás los dientes.</li>
+        <li>Reutilizar el agua siempre que sea posible.</li>
+        <li>No tirar basura en ríos o arroyos.</li>
+        <li>Usar productos biodegradables.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="datos">
+    <h2>Datos y Estadísticas</h2>
+    <div class="tarjeta">
+      <p>🌍 El 70% de la superficie terrestre está cubierta por agua.  
+         💧 Solo el 2.5% es agua dulce.  
+         🚰 Menos del 1% es accesible para consumo humano.</p>
+    </div>
+  </section>
+
+  <section id="cientificos">
+    <h2>Aspectos Científicos y Naturales</h2>
+    <div class="tarjeta">
+      <h3>Propiedades Físicas y Químicas</h3>
+      <p>El agua es un solvente universal, tiene alto calor específico y es vital para reacciones químicas.</p>
+      <h3>Tipos de Agua</h3>
+      <p>Agua dulce, salada, subterránea y superficial.</p>
+    </div>
+  </section>
+
+  <section id="retos">
+    <h2>Retos y Problemas Ambientales</h2>
+    <div class="tarjeta">
+      <ul>
+        <li><strong>Escasez de Agua:</strong> afecta a millones de personas.</li>
+        <li><strong>Cambio Climático:</strong> altera el ciclo del agua, provoca sequías e inundaciones.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="impacto">
+    <h2>Impacto Social y Económico</h2>
+    <div class="tarjeta">
+      <ul>
+        <li><strong>Acceso a Agua Potable:</strong> clave para la salud y el bienestar.</li>
+        <li><strong>Agua y Salud:</strong> su falta causa enfermedades.</li>
+        <li><strong>Conflictos:</strong> algunas regiones disputan recursos hídricos.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="conservacion">
+    <h2>Conservación y Soluciones</h2>
+    <div class="tarjeta">
+      <ul>
+        <li><strong>Gestión del Agua:</strong> uso sostenible de los recursos hídricos.</li>
+        <li><strong>Tecnologías:</strong> plantas potabilizadoras y tratamiento de aguas.</li>
+        <li><strong>Acciones Personales:</strong> pequeños hábitos reducen desperdicio.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 | Proyecto Escolar - Secundaria | El Agua 💧</p>
+  </footer>
+
+</body>
+</html>
